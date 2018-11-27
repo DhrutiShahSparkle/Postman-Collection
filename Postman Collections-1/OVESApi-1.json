@@ -1,0 +1,1248 @@
+{
+  "info": {
+    "_postman_id": "4319785e-9d4b-c6f2-2221-70148cad492f",
+    "name": "OVESApi",
+    "schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+  },
+  "item": [
+    {
+      "_postman_id": "2a01bb1e-0c70-a884-99cb-7e6a56308561",
+      "name": "assignedItems",
+      "description": "",
+      "item": [
+        {
+          "_postman_id": "2529c583-9422-6802-d50a-182282811748",
+          "name": "assignedItemsList",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "eyJraWQiOiJ3OWxNQmhSbUg1YnJKRktkeEpRTXVVRUh4TkVEclVGUkY1YXVudHRuejRBPSIsImFsZyI6IlJTMjU2In0.eyJzdWIiOiI2MzNlMzc5Ni02OGNkLTQ3YTgtYjBjNi1lYzA4NDgxMTRkZDciLCJldmVudF9pZCI6ImNhZWRlZTJiLWYyMGMtMTFlOC04MTY0LTRkZDlkZTRjZGE0ZiIsInRva2VuX3VzZSI6ImFjY2VzcyIsInNjb3BlIjoiYXdzLmNvZ25pdG8uc2lnbmluLnVzZXIuYWRtaW4iLCJhdXRoX3RpbWUiOjE1NDMyOTk3MzksImlzcyI6Imh0dHBzOlwvXC9jb2duaXRvLWlkcC5hcC1zb3V0aGVhc3QtMS5hbWF6b25hd3MuY29tXC9hcC1zb3V0aGVhc3QtMV9qQ0tZTTJhNVYiLCJleHAiOjE1NDMzMDMzMzksImlhdCI6MTU0MzI5OTczOSwianRpIjoiZWIzODBkZDMtOTE5MC00MzMwLThhZGItOWI3YmMyN2M1YmY4IiwiY2xpZW50X2lkIjoiNm9hcTljdmRoNG1pamQ2YmwxbHFhYTRxMTEiLCJ1c2VybmFtZSI6InRlc3RkaXN0cmlidXRvckBnbWFpbC5jb20ifQ.fTCNqI_d0xjcqX5VqQxbhjlQozyGIhhotluuX2SIfWV6I_Mpd67HR4nBqz7X92UXlyrckco5qVrsXl2iUxveNx954fB2ClHbf5Pz-XTP-KpkGNX5vcECGfcvAXDy7ETgofqKU1p9rUgt1ygs_lwnXpBdf37iKmPfVDMfIsCSr9HpfdrtaaBjcVAY5INa2rF-4b3o3MAx7EwNwzNg2sR5sKYXx046SVac5qb0fmHf1cDIQ9TbyL2pNu-Gxol9poy_zuc3NfmUXK1MlWF0MZgyxt5h_GaER-_ZHaIPU58SfYDgufnbxIBxTmNdx12kHP1zEMPQVVbLY4mrWv7kZol6Jg"
+              },
+              {
+                "key": "Content-Type",
+                "value": "application/x-www-form-urlencoded"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": ""
+            },
+            "url": "https://wisvt1646i.execute-api.ap-southeast-1.amazonaws.com/dev/assignedItemsList/0/10"
+          },
+          "response": []
+        },
+        {
+          "_postman_id": "2d2e6839-e513-a7a4-9783-99925afcec35",
+          "name": "assignedItemsGet",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "eyJraWQiOiJxTDVBR1l3b3ZtbFMzV1hNZ1FWZTVDKzl4aXZjRWZ6XC9YWnlZN1ROcitsZz0iLCJhbGciOiJSUzI1NiJ9.eyJzdWIiOiJmZTg3ZDBjMS03M2U3LTQxMzUtYjc3MC04OGYwYzAzNzlmNzAiLCJhdWQiOiI2b2FxOWN2ZGg0bWlqZDZibDFscWFhNHExMSIsImVtYWlsX3ZlcmlmaWVkIjp0cnVlLCJldmVudF9pZCI6IjExMzkzYjlhLWViZWQtMTFlOC1hNGUxLWY5ZWI3M2JhYTcyOSIsInRva2VuX3VzZSI6ImlkIiwiYXV0aF90aW1lIjoxNTQyNjI2NDA2LCJpc3MiOiJodHRwczpcL1wvY29nbml0by1pZHAuYXAtc291dGhlYXN0LTEuYW1hem9uYXdzLmNvbVwvYXAtc291dGhlYXN0LTFfakNLWU0yYTVWIiwiY29nbml0bzp1c2VybmFtZSI6ImRzLnNwYXJrbGUwMThAZ21haWwuY29tIiwiZXhwIjoxNTQyNjMwMDA2LCJpYXQiOjE1NDI2MjY0MDYsImVtYWlsIjoiZHMuc3BhcmtsZTAxOEBnbWFpbC5jb20ifQ.OlTB9R9ofkJ3xj7GkP2HwaZTpLAkZ2lVJNSnpTx7vtYOgRb-M5qHve-ELJvdYr2vymjxgC41zHwshy7rqjyfLhEmoMj0o-ZvzRTfAAVHJoeMqkg9R62vDiAHXbRauGTfP3axkJDrh6O4rWjJwWTAgAnj8stxyG7_MXUk5uvsZrv0ys5Uzc-jMjkJUDy-lppyN4VsPl3R1jGNDnAaN1BKxj1qlpUqJWsJEc0dtu9ZOqw6XO8ZAIFNVlEWjohhCEMpAfQ7TvyFFzOy6Wv3nD5zjpPghC3X7hZLclZznUY9XWmLgzUP_srX6aob_2hiQA1Axq_-eaH5RMnknXVGG3pd5A"
+              },
+              {
+                "key": "Content-Type",
+                "value": "application/x-www-form-urlencoded"
+              }
+            ],
+            "body": {},
+            "url": "https://wisvt1646i.execute-api.ap-southeast-1.amazonaws.com/dev/assignedItems/11"
+          },
+          "response": []
+        },
+        {
+          "_postman_id": "608ca814-a6c4-475a-5a04-f45cf7a132c1",
+          "name": "assignedItemsMetadata",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhY2NvdW50SWQiOjEsInVzZXJJZCI6MSwiYnVzaW5lc3NJZCI6MSwidXNlclR5cGUiOiJzdGFmZiIsImlhdCI6MTUyODQwODQ3MywiZXhwIjoxNTMxMDAwNDczfQ.GnJgyQMBn4o1Iz_aaHKPnKY-rRdVP5K-k37XA4bl4Cw"
+              },
+              {
+                "key": "Content-Type",
+                "value": "application/x-www-form-urlencoded"
+              }
+            ],
+            "body": {},
+            "url": "https://wisvt1646i.execute-api.ap-southeast-1.amazonaws.com/dev/assignedItems_Metadata"
+          },
+          "response": []
+        },
+        {
+          "_postman_id": "886999d6-93d7-fe2b-be3b-b41f1f60382f",
+          "name": "assignedItemsPut",
+          "request": {
+            "method": "PUT",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhY2NvdW50SWQiOjEsInVzZXJJZCI6MSwiYnVzaW5lc3NJZCI6MSwidXNlclR5cGUiOiJzdGFmZiIsImlhdCI6MTUyODQwODQ3MywiZXhwIjoxNTMxMDAwNDczfQ.GnJgyQMBn4o1Iz_aaHKPnKY-rRdVP5K-k37XA4bl4Cw"
+              },
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n        \"agentID\": 4,\n        \"productitemID\": 11294,\n        \"itemAssignDate\": \"2018-06-29T15:07:13.000Z\",\n        \"itemAssignNote\": \"updated note\"\n}"
+            },
+            "url": "https://wisvt1646i.execute-api.ap-southeast-1.amazonaws.com/dev/assignedItems/11"
+          },
+          "response": []
+        },
+        {
+          "_postman_id": "df038fab-e263-0cd7-aefa-c36854a7fed9",
+          "name": "assignedItemsDelete",
+          "request": {
+            "method": "DELETE",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhY2NvdW50SWQiOjEsInVzZXJJZCI6MSwiYnVzaW5lc3NJZCI6MSwidXNlclR5cGUiOiJzdGFmZiIsImlhdCI6MTUyODQwODQ3MywiZXhwIjoxNTMxMDAwNDczfQ.GnJgyQMBn4o1Iz_aaHKPnKY-rRdVP5K-k37XA4bl4Cw"
+              },
+              {
+                "key": "Content-Type",
+                "value": "application/x-www-form-urlencoded"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": ""
+            },
+            "url": "https://wisvt1646i.execute-api.ap-southeast-1.amazonaws.com/dev/assignedItems/13"
+          },
+          "response": []
+        },
+        {
+          "_postman_id": "d28b9394-4f20-df90-e013-704269f91f73",
+          "name": "assignedItemsPost",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhY2NvdW50SWQiOjEsInVzZXJJZCI6MSwiYnVzaW5lc3NJZCI6MSwidXNlclR5cGUiOiJzdGFmZiIsImlhdCI6MTUyODQwODQ3MywiZXhwIjoxNTMxMDAwNDczfQ.GnJgyQMBn4o1Iz_aaHKPnKY-rRdVP5K-k37XA4bl4Cw"
+              },
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n        \"agentID\": 4,\n        \"productitemID\": 11294,\n        \"itemAssignDate\": \"2018-06-29T15:07:13.000Z\",\n        \"itemAssignNote\": \"updated note\"\n}"
+            },
+            "url": "https://wisvt1646i.execute-api.ap-southeast-1.amazonaws.com/dev/assignedItems"
+          },
+          "response": []
+        }
+      ]
+    },
+    {
+      "_postman_id": "35ef85cd-d4dc-16ed-e268-06c3c5417aba",
+      "name": "distributors",
+      "description": "",
+      "item": [
+        {
+          "_postman_id": "2b7f448f-f11c-86af-2573-cd62088e2aca",
+          "name": "distributorList",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhY2NvdW50SWQiOjEsInVzZXJJZCI6MSwiYnVzaW5lc3NJZCI6MSwidXNlclR5cGUiOiJzdGFmZiIsImlhdCI6MTUyODQwODQ3MywiZXhwIjoxNTMxMDAwNDczfQ.GnJgyQMBn4o1Iz_aaHKPnKY-rRdVP5K-k37XA4bl4Cw"
+              },
+              {
+                "key": "Content-Type",
+                "value": "application/x-www-form-urlencoded"
+              }
+            ],
+            "body": {},
+            "url": "https://wisvt1646i.execute-api.ap-southeast-1.amazonaws.com/dev/distributorList/0/5"
+          },
+          "response": []
+        },
+        {
+          "_postman_id": "114f397b-7746-9709-e1ca-ac6a997ad101",
+          "name": "distributorGet",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhY2NvdW50SWQiOjEsInVzZXJJZCI6MSwiYnVzaW5lc3NJZCI6MSwidXNlclR5cGUiOiJzdGFmZiIsImlhdCI6MTUyODQwODQ3MywiZXhwIjoxNTMxMDAwNDczfQ.GnJgyQMBn4o1Iz_aaHKPnKY-rRdVP5K-k37XA4bl4Cw"
+              },
+              {
+                "key": "Content-Type",
+                "value": "application/x-www-form-urlencoded"
+              }
+            ],
+            "body": {},
+            "url": "https://wisvt1646i.execute-api.ap-southeast-1.amazonaws.com/dev/distributor/1"
+          },
+          "response": []
+        },
+        {
+          "_postman_id": "6babc1db-6ca8-6364-2e8a-201caa78a1cc",
+          "name": "distributorMetadata",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhY2NvdW50SWQiOjEsInVzZXJJZCI6MSwiYnVzaW5lc3NJZCI6MSwidXNlclR5cGUiOiJzdGFmZiIsImlhdCI6MTUyODQwODQ3MywiZXhwIjoxNTMxMDAwNDczfQ.GnJgyQMBn4o1Iz_aaHKPnKY-rRdVP5K-k37XA4bl4Cw"
+              },
+              {
+                "key": "Content-Type",
+                "value": "application/x-www-form-urlencoded"
+              }
+            ],
+            "body": {},
+            "url": "https://wisvt1646i.execute-api.ap-southeast-1.amazonaws.com/dev/distributor_Metadata"
+          },
+          "response": []
+        },
+        {
+          "_postman_id": "97a19160-b1b6-b91e-39ab-0f32205df7e0",
+          "name": "distributorPut",
+          "request": {
+            "method": "PUT",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhY2NvdW50SWQiOjEsInVzZXJJZCI6MSwiYnVzaW5lc3NJZCI6MSwidXNlclR5cGUiOiJzdGFmZiIsImlhdCI6MTUyODQwODQ3MywiZXhwIjoxNTMxMDAwNDczfQ.GnJgyQMBn4o1Iz_aaHKPnKY-rRdVP5K-k37XA4bl4Cw"
+              },
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n        \"customerName\": \"Sagar Chopada\",\n        \"contactLastName\": \"Chopada\",\n        \"contactFirstName\": \"Tushar\",\n        \"addressLine1\": \"G-43 ganga jamana rowhouse, varaccha\",\n        \"addressLine2\": \"kamrej\",\n        \"phone\":\"9624490320\",\n        \"city\": \"surat\",\n        \"state\": \"gujarat\",\n        \"postalCode\": \"395006\",\n        \"country\": \"India\",\n        \"creditLimit\": 200,\n        \"country_countryID\": 2\n}"
+            },
+            "url": "https://wisvt1646i.execute-api.ap-southeast-1.amazonaws.com/dev/distributor/1"
+          },
+          "response": []
+        },
+        {
+          "_postman_id": "c09aaec4-c7ea-f98e-3d98-757f2c41e565",
+          "name": "distributorDelete",
+          "request": {
+            "method": "DELETE",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhY2NvdW50SWQiOjEsInVzZXJJZCI6MSwiYnVzaW5lc3NJZCI6MSwidXNlclR5cGUiOiJzdGFmZiIsImlhdCI6MTUyODQwODQ3MywiZXhwIjoxNTMxMDAwNDczfQ.GnJgyQMBn4o1Iz_aaHKPnKY-rRdVP5K-k37XA4bl4Cw"
+              },
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n        \"customerName\": \"Sagar Chopada\",\n        \"contactLastName\": \"Chopada\",\n        \"contactFirstName\": \"Tushar\",\n        \"addressLine1\": \"G-43 ganga jamana rowhouse, varaccha\",\n        \"addressLine2\": null,\n        \"phone\":\"9624490320\",\n        \"city\": \"surat\",\n        \"state\": \"gujarat\",\n        \"postalCode\": \"395006\",\n        \"country\": \"India\",\n        \"creditLimit\": 200,\n        \"country_countryID\": 2\n}"
+            },
+            "url": "https://wisvt1646i.execute-api.ap-southeast-1.amazonaws.com/dev/distributor/2"
+          },
+          "response": []
+        },
+        {
+          "_postman_id": "324c2111-9f55-9de7-bd1f-3356963753c2",
+          "name": "distributorPost",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhY2NvdW50SWQiOjEsInVzZXJJZCI6MSwiYnVzaW5lc3NJZCI6MSwidXNlclR5cGUiOiJzdGFmZiIsImlhdCI6MTUyODQwODQ3MywiZXhwIjoxNTMxMDAwNDczfQ.GnJgyQMBn4o1Iz_aaHKPnKY-rRdVP5K-k37XA4bl4Cw"
+              },
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n        \"customerName\": \"Sagar Chopada\",\n        \"contactLastName\": \"Chopada\",\n        \"contactFirstName\": \"Tushar\",\n        \"addressLine1\": \"G-43 ganga jamana rowhouse, varaccha\",\n        \"addressLine2\": null,\n        \"phone\":\"9624490320\",\n        \"city\": \"surat\",\n        \"state\": \"gujarat\",\n        \"postalCode\": \"395006\",\n        \"country\": \"India\",\n        \"creditLimit\": 200,\n        \"country_countryID\": 2\n}"
+            },
+            "url": "https://wisvt1646i.execute-api.ap-southeast-1.amazonaws.com/dev/distributor"
+          },
+          "response": []
+        }
+      ]
+    },
+    {
+      "_postman_id": "5ec44d57-f659-0cce-c994-1c74b7d6318a",
+      "name": "country",
+      "description": "",
+      "item": [
+        {
+          "_postman_id": "3939c30f-e724-0a12-838b-f6ddb722bcc2",
+          "name": "countryList",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhY2NvdW50SWQiOjEsInVzZXJJZCI6MSwiYnVzaW5lc3NJZCI6MSwidXNlclR5cGUiOiJzdGFmZiIsImlhdCI6MTUyODQwODQ3MywiZXhwIjoxNTMxMDAwNDczfQ.GnJgyQMBn4o1Iz_aaHKPnKY-rRdVP5K-k37XA4bl4Cw"
+              },
+              {
+                "key": "Content-Type",
+                "value": "application/x-www-form-urlencoded"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": ""
+            },
+            "url": "https://wisvt1646i.execute-api.ap-southeast-1.amazonaws.com/dev/countryList/0/5"
+          },
+          "response": []
+        },
+        {
+          "_postman_id": "afbedf46-eb25-11be-2de2-e2a45dbeb146",
+          "name": "countryGet",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhY2NvdW50SWQiOjEsInVzZXJJZCI6MSwiYnVzaW5lc3NJZCI6MSwidXNlclR5cGUiOiJzdGFmZiIsImlhdCI6MTUyODQwODQ3MywiZXhwIjoxNTMxMDAwNDczfQ.GnJgyQMBn4o1Iz_aaHKPnKY-rRdVP5K-k37XA4bl4Cw"
+              },
+              {
+                "key": "Content-Type",
+                "value": "application/x-www-form-urlencoded"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": ""
+            },
+            "url": "https://wisvt1646i.execute-api.ap-southeast-1.amazonaws.com/dev/country/1"
+          },
+          "response": []
+        },
+        {
+          "_postman_id": "a8c2e30e-d661-9225-8b74-fec5df7f3425",
+          "name": "countryPut",
+          "request": {
+            "method": "PUT",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhY2NvdW50SWQiOjEsInVzZXJJZCI6MSwiYnVzaW5lc3NJZCI6MSwidXNlclR5cGUiOiJzdGFmZiIsImlhdCI6MTUyODQwODQ3MywiZXhwIjoxNTMxMDAwNDczfQ.GnJgyQMBn4o1Iz_aaHKPnKY-rRdVP5K-k37XA4bl4Cw"
+              },
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n        \"nameEnglish\": \"India\",\n        \"nameNative\": \"Bharat\",\n        \"countrySymbol\": \"IN\",\n        \"flagImage\": null,\n        \"currencyNameEnglish\": \"INR\",\n        \"currencySymbol\": \"Rs.\",\n        \"currencyFXCode\": \"\u20b9\"\n    }"
+            },
+            "url": "https://wisvt1646i.execute-api.ap-southeast-1.amazonaws.com/dev/country/1"
+          },
+          "response": []
+        },
+        {
+          "_postman_id": "6bebd56e-e545-bd8f-d523-28c37b23325b",
+          "name": "countryDelete",
+          "request": {
+            "method": "DELETE",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhY2NvdW50SWQiOjEsInVzZXJJZCI6MSwiYnVzaW5lc3NJZCI6MSwidXNlclR5cGUiOiJzdGFmZiIsImlhdCI6MTUyODQwODQ3MywiZXhwIjoxNTMxMDAwNDczfQ.GnJgyQMBn4o1Iz_aaHKPnKY-rRdVP5K-k37XA4bl4Cw"
+              },
+              {
+                "key": "Content-Type",
+                "value": "application/x-www-form-urlencoded"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": ""
+            },
+            "url": "https://wisvt1646i.execute-api.ap-southeast-1.amazonaws.com/dev/country/1"
+          },
+          "response": []
+        },
+        {
+          "_postman_id": "c21c1dc7-ebb0-0bbc-f04c-832c26bc16dd",
+          "name": "countryPost",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhY2NvdW50SWQiOjEsInVzZXJJZCI6MSwiYnVzaW5lc3NJZCI6MSwidXNlclR5cGUiOiJzdGFmZiIsImlhdCI6MTUyODQwODQ3MywiZXhwIjoxNTMxMDAwNDczfQ.GnJgyQMBn4o1Iz_aaHKPnKY-rRdVP5K-k37XA4bl4Cw"
+              },
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n        \"nameEnglish\": \"India\",\n        \"nameNative\": \"Bharat\",\n        \"countrySymbol\": \"IN\",\n        \"flagImage\": null,\n        \"currencyNameEnglish\": \"INR\",\n        \"currencySymbol\": \"Rs.\",\n        \"currencyFXCode\": \"\u20b9\"\n    }"
+            },
+            "url": "https://wisvt1646i.execute-api.ap-southeast-1.amazonaws.com/dev/country"
+          },
+          "response": []
+        }
+      ]
+    },
+    {
+      "_postman_id": "a9cf20d2-1a40-bf3c-ed0f-4663941cad3d",
+      "name": "productItems",
+      "description": "",
+      "item": [
+        {
+          "_postman_id": "5a4c3a4b-7109-454d-f382-5822d9f64421",
+          "name": "productItemsList",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhY2NvdW50SWQiOjEsInVzZXJJZCI6MSwiYnVzaW5lc3NJZCI6MSwidXNlclR5cGUiOiJzdGFmZiIsImlhdCI6MTUyODQwODQ3MywiZXhwIjoxNTMxMDAwNDczfQ.GnJgyQMBn4o1Iz_aaHKPnKY-rRdVP5K-k37XA4bl4Cw"
+              },
+              {
+                "key": "Content-Type",
+                "value": "application/x-www-form-urlencoded"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": ""
+            },
+            "url": "https://wisvt1646i.execute-api.ap-southeast-1.amazonaws.com/dev/productItemsList/0/5"
+          },
+          "response": []
+        },
+        {
+          "_postman_id": "8ec140d5-bf55-5605-ac99-37d87f991094",
+          "name": "productItemsGet",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhY2NvdW50SWQiOjEsInVzZXJJZCI6MSwiYnVzaW5lc3NJZCI6MSwidXNlclR5cGUiOiJzdGFmZiIsImlhdCI6MTUyODQwODQ3MywiZXhwIjoxNTMxMDAwNDczfQ.GnJgyQMBn4o1Iz_aaHKPnKY-rRdVP5K-k37XA4bl4Cw"
+              },
+              {
+                "key": "Content-Type",
+                "value": "application/x-www-form-urlencoded"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": ""
+            },
+            "url": "https://wisvt1646i.execute-api.ap-southeast-1.amazonaws.com/dev/productItems/11288"
+          },
+          "response": []
+        },
+        {
+          "_postman_id": "b9d605b9-cc68-c3d3-4020-9f31e4fec896",
+          "name": "productItemsMetadata",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhY2NvdW50SWQiOjEsInVzZXJJZCI6MSwiYnVzaW5lc3NJZCI6MSwidXNlclR5cGUiOiJzdGFmZiIsImlhdCI6MTUyODQwODQ3MywiZXhwIjoxNTMxMDAwNDczfQ.GnJgyQMBn4o1Iz_aaHKPnKY-rRdVP5K-k37XA4bl4Cw"
+              },
+              {
+                "key": "Content-Type",
+                "value": "application/x-www-form-urlencoded"
+              }
+            ],
+            "body": {},
+            "url": "https://wisvt1646i.execute-api.ap-southeast-1.amazonaws.com/dev/productItems_Metadata"
+          },
+          "response": []
+        },
+        {
+          "_postman_id": "cc66390e-a8be-ccdd-2ec6-4609c47247bf",
+          "name": "productItemsPut",
+          "request": {
+            "method": "PUT",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhY2NvdW50SWQiOjEsInVzZXJJZCI6MSwiYnVzaW5lc3NJZCI6MSwidXNlclR5cGUiOiJzdGFmZiIsImlhdCI6MTUyODQwODQ3MywiZXhwIjoxNTMxMDAwNDczfQ.GnJgyQMBn4o1Iz_aaHKPnKY-rRdVP5K-k37XA4bl4Cw"
+              },
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n        \"productModelID\": 31,\n        \"productBatchID\": 122,\n        \"productItemOEM_SN\": \"03AH1701000001\",\n        \"productItemPAYG_SN\": \"03AH1701000001\",\n        \"lifeCycleStatus\": \"Provisione\",\n        \"loraendid\": \"0000000000000216\",\n        \"user_userID\": null\n    }"
+            },
+            "url": "https://wisvt1646i.execute-api.ap-southeast-1.amazonaws.com/dev/productItems/11288"
+          },
+          "response": []
+        },
+        {
+          "_postman_id": "2a951177-a646-5d2b-d43c-3de61f0f7fa1",
+          "name": "productItemsDelete",
+          "request": {
+            "method": "DELETE",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhY2NvdW50SWQiOjEsInVzZXJJZCI6MSwiYnVzaW5lc3NJZCI6MSwidXNlclR5cGUiOiJzdGFmZiIsImlhdCI6MTUyODQwODQ3MywiZXhwIjoxNTMxMDAwNDczfQ.GnJgyQMBn4o1Iz_aaHKPnKY-rRdVP5K-k37XA4bl4Cw"
+              },
+              {
+                "key": "Content-Type",
+                "value": "application/x-www-form-urlencoded"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": ""
+            },
+            "url": "https://wisvt1646i.execute-api.ap-southeast-1.amazonaws.com/dev/productItems/11288"
+          },
+          "response": []
+        }
+      ]
+    },
+    {
+      "_postman_id": "7aa71fef-fb8e-60e6-ff8e-4ad81924b1e1",
+      "name": "productCategory",
+      "description": "",
+      "item": [
+        {
+          "_postman_id": "8951f497-f5a5-9acc-5dd6-6cb4f71e495f",
+          "name": "productCategoryList",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhY2NvdW50SWQiOjEsInVzZXJJZCI6MSwiYnVzaW5lc3NJZCI6MSwidXNlclR5cGUiOiJzdGFmZiIsImlhdCI6MTUyODQwODQ3MywiZXhwIjoxNTMxMDAwNDczfQ.GnJgyQMBn4o1Iz_aaHKPnKY-rRdVP5K-k37XA4bl4Cw"
+              },
+              {
+                "key": "Content-Type",
+                "value": "application/x-www-form-urlencoded"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": ""
+            },
+            "url": "https://wisvt1646i.execute-api.ap-southeast-1.amazonaws.com/dev/productCategoryList/0/5"
+          },
+          "response": []
+        },
+        {
+          "_postman_id": "63f72920-90b4-6459-a7e7-300a79de3089",
+          "name": "productCategoryGet",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhY2NvdW50SWQiOjEsInVzZXJJZCI6MSwiYnVzaW5lc3NJZCI6MSwidXNlclR5cGUiOiJzdGFmZiIsImlhdCI6MTUyODQwODQ3MywiZXhwIjoxNTMxMDAwNDczfQ.GnJgyQMBn4o1Iz_aaHKPnKY-rRdVP5K-k37XA4bl4Cw"
+              },
+              {
+                "key": "Content-Type",
+                "value": "application/x-www-form-urlencoded"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": ""
+            },
+            "url": "https://wisvt1646i.execute-api.ap-southeast-1.amazonaws.com/dev/productCategory/1"
+          },
+          "response": []
+        },
+        {
+          "_postman_id": "2b2c729c-30a9-ab1b-c244-7f6a9c24512c",
+          "name": "productCategoryPut",
+          "request": {
+            "method": "PUT",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhY2NvdW50SWQiOjEsInVzZXJJZCI6MSwiYnVzaW5lc3NJZCI6MSwidXNlclR5cGUiOiJzdGFmZiIsImlhdCI6MTUyODQwODQ3MywiZXhwIjoxNTMxMDAwNDczfQ.GnJgyQMBn4o1Iz_aaHKPnKY-rRdVP5K-k37XA4bl4Cw"
+              },
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n        \"productCategoryName\": \"\u7535\u6c60\",\n        \"productCategoryDescription\": \"updated desc\",\n        \"image\": \"\"\n    }"
+            },
+            "url": "https://wisvt1646i.execute-api.ap-southeast-1.amazonaws.com/dev/productCategory/1"
+          },
+          "response": []
+        },
+        {
+          "_postman_id": "0d188930-767d-8e74-eb4e-6fe3668c65f2",
+          "name": "productCategoryDelete",
+          "request": {
+            "method": "DELETE",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhY2NvdW50SWQiOjEsInVzZXJJZCI6MSwiYnVzaW5lc3NJZCI6MSwidXNlclR5cGUiOiJzdGFmZiIsImlhdCI6MTUyODQwODQ3MywiZXhwIjoxNTMxMDAwNDczfQ.GnJgyQMBn4o1Iz_aaHKPnKY-rRdVP5K-k37XA4bl4Cw"
+              },
+              {
+                "key": "Content-Type",
+                "value": "application/x-www-form-urlencoded"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": ""
+            },
+            "url": "https://wisvt1646i.execute-api.ap-southeast-1.amazonaws.com/dev/productCategory/1"
+          },
+          "response": []
+        },
+        {
+          "_postman_id": "1ce0194b-0dc7-36ea-2b76-a4cc239a6e28",
+          "name": "productCategoryPost",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhY2NvdW50SWQiOjEsInVzZXJJZCI6MSwiYnVzaW5lc3NJZCI6MSwidXNlclR5cGUiOiJzdGFmZiIsImlhdCI6MTUyODQwODQ3MywiZXhwIjoxNTMxMDAwNDczfQ.GnJgyQMBn4o1Iz_aaHKPnKY-rRdVP5K-k37XA4bl4Cw"
+              },
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n        \"productCategoryName\": \"\u7535\u6c60\",\n        \"productCategoryDescription\": \"updated desc\",\n        \"image\": \"\"\n    }"
+            },
+            "url": "https://wisvt1646i.execute-api.ap-southeast-1.amazonaws.com/dev/productCategory"
+          },
+          "response": []
+        }
+      ]
+    },
+    {
+      "_postman_id": "11fddfe0-9f3e-8eee-9012-c1c908579d94",
+      "name": "user",
+      "description": "",
+      "item": [
+        {
+          "_postman_id": "1498ab81-59e0-a222-eb7b-529b05b7b10c",
+          "name": "userList",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhY2NvdW50SWQiOjEsInVzZXJJZCI6MSwiYnVzaW5lc3NJZCI6MSwidXNlclR5cGUiOiJzdGFmZiIsImlhdCI6MTUyODQwODQ3MywiZXhwIjoxNTMxMDAwNDczfQ.GnJgyQMBn4o1Iz_aaHKPnKY-rRdVP5K-k37XA4bl4Cw"
+              },
+              {
+                "key": "Content-Type",
+                "value": "application/x-www-form-urlencoded"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": ""
+            },
+            "url": "https://wisvt1646i.execute-api.ap-southeast-1.amazonaws.com/dev/userList/0/5"
+          },
+          "response": []
+        },
+        {
+          "_postman_id": "de3befa6-1ec4-02f9-6f17-eafc2ced8379",
+          "name": "userGet",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhY2NvdW50SWQiOjEsInVzZXJJZCI6MSwiYnVzaW5lc3NJZCI6MSwidXNlclR5cGUiOiJzdGFmZiIsImlhdCI6MTUyODQwODQ3MywiZXhwIjoxNTMxMDAwNDczfQ.GnJgyQMBn4o1Iz_aaHKPnKY-rRdVP5K-k37XA4bl4Cw"
+              },
+              {
+                "key": "Content-Type",
+                "value": "application/x-www-form-urlencoded"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": ""
+            },
+            "url": "https://wisvt1646i.execute-api.ap-southeast-1.amazonaws.com/dev/user/1"
+          },
+          "response": []
+        },
+        {
+          "_postman_id": "38eb2ffd-ac60-9444-d330-2911ad30c3aa",
+          "name": "userPut",
+          "request": {
+            "method": "PUT",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhY2NvdW50SWQiOjEsInVzZXJJZCI6MSwiYnVzaW5lc3NJZCI6MSwidXNlclR5cGUiOiJzdGFmZiIsImlhdCI6MTUyODQwODQ3MywiZXhwIjoxNTMxMDAwNDczfQ.GnJgyQMBn4o1Iz_aaHKPnKY-rRdVP5K-k37XA4bl4Cw"
+              },
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n        \"lastName\": \"\u5f20\",\n        \"firstName\": \"\u5fb7\",\n        \"phoneNumber\": \"1\",\n        \"email\": \"1\",\n        \"locationGPS\": null,\n        \"address1\": null,\n        \"address2\": null,\n        \"city\": \"Singapore\",\n        \"state\": null,\n        \"country\": null,\n        \"postCode\": null,\n        \"agent_agentID\": 3\n    }"
+            },
+            "url": "https://wisvt1646i.execute-api.ap-southeast-1.amazonaws.com/dev/user/1"
+          },
+          "response": []
+        },
+        {
+          "_postman_id": "a6d924fc-f010-b23a-17a5-7e57bb566ccf",
+          "name": "userDelete",
+          "request": {
+            "method": "DELETE",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhY2NvdW50SWQiOjEsInVzZXJJZCI6MSwiYnVzaW5lc3NJZCI6MSwidXNlclR5cGUiOiJzdGFmZiIsImlhdCI6MTUyODQwODQ3MywiZXhwIjoxNTMxMDAwNDczfQ.GnJgyQMBn4o1Iz_aaHKPnKY-rRdVP5K-k37XA4bl4Cw"
+              },
+              {
+                "key": "Content-Type",
+                "value": "application/x-www-form-urlencoded"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": ""
+            },
+            "url": "https://wisvt1646i.execute-api.ap-southeast-1.amazonaws.com/dev/user/6"
+          },
+          "response": []
+        },
+        {
+          "_postman_id": "1289e039-d946-810b-c7f5-2643e5645898",
+          "name": "userPost",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhY2NvdW50SWQiOjEsInVzZXJJZCI6MSwiYnVzaW5lc3NJZCI6MSwidXNlclR5cGUiOiJzdGFmZiIsImlhdCI6MTUyODQwODQ3MywiZXhwIjoxNTMxMDAwNDczfQ.GnJgyQMBn4o1Iz_aaHKPnKY-rRdVP5K-k37XA4bl4Cw"
+              },
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n        \"lastName\": \"\u53f6\",\n        \"firstName\": \"\u660e\u8f69\",\n        \"phoneNumber\": \"1\",\n        \"email\": \"1\",\n        \"locationGPS\": null,\n        \"address1\": null,\n        \"address2\": null,\n        \"city\": null,\n        \"state\": null,\n        \"country\": null,\n        \"postCode\": null,\n        \"agent_agentID\": 1\n    }"
+            },
+            "url": "https://wisvt1646i.execute-api.ap-southeast-1.amazonaws.com/dev/user"
+          },
+          "response": []
+        }
+      ]
+    },
+    {
+      "_postman_id": "8fa9e80d-a980-4ddb-da86-781c5f47cf80",
+      "name": "agent",
+      "description": "",
+      "item": [
+        {
+          "_postman_id": "c7ed31b5-9e22-4ba6-015b-3013db9f703a",
+          "name": "agentList",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhY2NvdW50SWQiOjEsInVzZXJJZCI6MSwiYnVzaW5lc3NJZCI6MSwidXNlclR5cGUiOiJzdGFmZiIsImlhdCI6MTUyODQwODQ3MywiZXhwIjoxNTMxMDAwNDczfQ.GnJgyQMBn4o1Iz_aaHKPnKY-rRdVP5K-k37XA4bl4Cw"
+              },
+              {
+                "key": "Content-Type",
+                "value": "application/x-www-form-urlencoded"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": ""
+            },
+            "url": "https://wisvt1646i.execute-api.ap-southeast-1.amazonaws.com/dev/agentList/0/5"
+          },
+          "response": []
+        },
+        {
+          "_postman_id": "5526e3dd-c9d5-541d-31f9-6c3f15bdb87a",
+          "name": "agentGet",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhY2NvdW50SWQiOjEsInVzZXJJZCI6MSwiYnVzaW5lc3NJZCI6MSwidXNlclR5cGUiOiJzdGFmZiIsImlhdCI6MTUyODQwODQ3MywiZXhwIjoxNTMxMDAwNDczfQ.GnJgyQMBn4o1Iz_aaHKPnKY-rRdVP5K-k37XA4bl4Cw"
+              },
+              {
+                "key": "Content-Type",
+                "value": "application/x-www-form-urlencoded"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": ""
+            },
+            "url": "https://wisvt1646i.execute-api.ap-southeast-1.amazonaws.com/dev/agent/1"
+          },
+          "response": []
+        },
+        {
+          "_postman_id": "30b8631d-ed45-e86d-67d2-3b1eb974449a",
+          "name": "agentPut",
+          "request": {
+            "method": "PUT",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhY2NvdW50SWQiOjEsInVzZXJJZCI6MSwiYnVzaW5lc3NJZCI6MSwidXNlclR5cGUiOiJzdGFmZiIsImlhdCI6MTUyODQwODQ3MywiZXhwIjoxNTMxMDAwNDczfQ.GnJgyQMBn4o1Iz_aaHKPnKY-rRdVP5K-k37XA4bl4Cw"
+              },
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n        \"lastName\": \"li\",\n        \"firstName\": \"si\",\n        \"agentAuthLevel\": \"1\",\n        \"groupid\": 1,\n        \"phoneNumber\": \"1357412589\",\n        \"email\": \"1373373@qq.com\",\n        \"dealerAffliation\": \"0\",\n        \"distributor_distributorID\": 0,\n        \"token\": \"ed0dbe85f933a033d00bad155330ddf5\"\n    }"
+            },
+            "url": "https://wisvt1646i.execute-api.ap-southeast-1.amazonaws.com/dev/agent/1"
+          },
+          "response": []
+        },
+        {
+          "_postman_id": "a99f46e2-7625-3909-74fa-e39196cf88af",
+          "name": "agentDelete",
+          "request": {
+            "method": "DELETE",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhY2NvdW50SWQiOjEsInVzZXJJZCI6MSwiYnVzaW5lc3NJZCI6MSwidXNlclR5cGUiOiJzdGFmZiIsImlhdCI6MTUyODQwODQ3MywiZXhwIjoxNTMxMDAwNDczfQ.GnJgyQMBn4o1Iz_aaHKPnKY-rRdVP5K-k37XA4bl4Cw"
+              },
+              {
+                "key": "Content-Type",
+                "value": "application/x-www-form-urlencoded"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": ""
+            },
+            "url": "https://wisvt1646i.execute-api.ap-southeast-1.amazonaws.com/dev/agent/8"
+          },
+          "response": []
+        },
+        {
+          "_postman_id": "d750e457-407b-79b4-7d87-0d1b83f4da13",
+          "name": "agentPost",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhY2NvdW50SWQiOjEsInVzZXJJZCI6MSwiYnVzaW5lc3NJZCI6MSwidXNlclR5cGUiOiJzdGFmZiIsImlhdCI6MTUyODQwODQ3MywiZXhwIjoxNTMxMDAwNDczfQ.GnJgyQMBn4o1Iz_aaHKPnKY-rRdVP5K-k37XA4bl4Cw"
+              },
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n        \"lastName\": \"li\",\n        \"firstName\": \"si\",\n        \"agentAuthLevel\": \"1\",\n        \"groupid\": 1,\n        \"phoneNumber\": \"1357412589\",\n        \"email\": \"1373373@qq.com\",\n        \"dealerAffliation\": \"0\",\n        \"distributor_distributorID\": 0,\n        \"token\": \"ed0dbe85f933a033d00bad155330ddf5\"\n    }"
+            },
+            "url": "https://wisvt1646i.execute-api.ap-southeast-1.amazonaws.com/dev/agent"
+          },
+          "response": []
+        }
+      ]
+    },
+    {
+      "_postman_id": "5fbe199e-da76-04e2-96b7-e4d9628b9a9a",
+      "name": "productModels",
+      "description": "",
+      "item": [
+        {
+          "_postman_id": "8b529b86-af30-918a-17e0-51bd1f3f408a",
+          "name": "productModelList",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhY2NvdW50SWQiOjEsInVzZXJJZCI6MSwiYnVzaW5lc3NJZCI6MSwidXNlclR5cGUiOiJzdGFmZiIsImlhdCI6MTUyODQwODQ3MywiZXhwIjoxNTMxMDAwNDczfQ.GnJgyQMBn4o1Iz_aaHKPnKY-rRdVP5K-k37XA4bl4Cw"
+              },
+              {
+                "key": "Content-Type",
+                "value": "application/x-www-form-urlencoded"
+              }
+            ],
+            "body": {},
+            "url": "https://wisvt1646i.execute-api.ap-southeast-1.amazonaws.com/dev/productModelList/0/5"
+          },
+          "response": []
+        },
+        {
+          "_postman_id": "26243762-a205-b55f-f0df-d018d8b9bc9e",
+          "name": "productModelGet",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhY2NvdW50SWQiOjEsInVzZXJJZCI6MSwiYnVzaW5lc3NJZCI6MSwidXNlclR5cGUiOiJzdGFmZiIsImlhdCI6MTUyODQwODQ3MywiZXhwIjoxNTMxMDAwNDczfQ.GnJgyQMBn4o1Iz_aaHKPnKY-rRdVP5K-k37XA4bl4Cw"
+              },
+              {
+                "key": "Content-Type",
+                "value": "application/x-www-form-urlencoded"
+              }
+            ],
+            "body": {},
+            "url": "https://wisvt1646i.execute-api.ap-southeast-1.amazonaws.com/dev/productModel/30"
+          },
+          "response": []
+        },
+        {
+          "_postman_id": "bd0596aa-ab63-8839-eee6-2016f86051d9",
+          "name": "productModelPut",
+          "request": {
+            "method": "PUT",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhY2NvdW50SWQiOjEsInVzZXJJZCI6MSwiYnVzaW5lc3NJZCI6MSwidXNlclR5cGUiOiJzdGFmZiIsImlhdCI6MTUyODQwODQ3MywiZXhwIjoxNTMxMDAwNDczfQ.GnJgyQMBn4o1Iz_aaHKPnKY-rRdVP5K-k37XA4bl4Cw"
+              },
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n            \"producModeltName\": \"HS2-144_LB1122_TV19_SRF_TC33\",\n            \"productFamilyID\": 20,\n            \"productVendor\": \"JBL\",\n            \"productModelDescription\": \"\",\n            \"quantityInStock\": 300,\n            \"productModelCost\": 1800\n        }"
+            },
+            "url": "https://wisvt1646i.execute-api.ap-southeast-1.amazonaws.com/dev/productModel/30"
+          },
+          "response": []
+        },
+        {
+          "_postman_id": "9835c138-c52e-8a97-a4fe-27c61708231f",
+          "name": "productModelDelete",
+          "request": {
+            "method": "DELETE",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhY2NvdW50SWQiOjEsInVzZXJJZCI6MSwiYnVzaW5lc3NJZCI6MSwidXNlclR5cGUiOiJzdGFmZiIsImlhdCI6MTUyODQwODQ3MywiZXhwIjoxNTMxMDAwNDczfQ.GnJgyQMBn4o1Iz_aaHKPnKY-rRdVP5K-k37XA4bl4Cw"
+              },
+              {
+                "key": "Content-Type",
+                "value": "application/x-www-form-urlencoded"
+              }
+            ],
+            "body": {},
+            "url": "https://wisvt1646i.execute-api.ap-southeast-1.amazonaws.com/dev/productModel/32"
+          },
+          "response": []
+        },
+        {
+          "_postman_id": "e5886f95-3646-2267-25e0-0ab7d108c59d",
+          "name": "productModelPost",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhY2NvdW50SWQiOjEsInVzZXJJZCI6MSwiYnVzaW5lc3NJZCI6MSwidXNlclR5cGUiOiJzdGFmZiIsImlhdCI6MTUyODQwODQ3MywiZXhwIjoxNTMxMDAwNDczfQ.GnJgyQMBn4o1Iz_aaHKPnKY-rRdVP5K-k37XA4bl4Cw"
+              },
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n            \"producModeltName\": \"HS2-144_LB1122_TV19_SRF_TC33\",\n            \"productFamilyID\": 20,\n            \"productVendor\": \"JBL\",\n            \"productModelDescription\": \"\",\n            \"quantityInStock\": 300,\n            \"productModelCost\": 1800\n        }"
+            },
+            "url": "https://wisvt1646i.execute-api.ap-southeast-1.amazonaws.com/dev/productModel"
+          },
+          "response": []
+        }
+      ]
+    },
+    {
+      "_postman_id": "792ac2bc-75ad-e809-4a6c-0d67f9d7ec12",
+      "name": "productBatch",
+      "description": "",
+      "item": [
+        {
+          "_postman_id": "2139b28c-7408-25f5-9114-9599a828e68f",
+          "name": "productBatchList",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhY2NvdW50SWQiOjEsInVzZXJJZCI6MSwiYnVzaW5lc3NJZCI6MSwidXNlclR5cGUiOiJzdGFmZiIsImlhdCI6MTUyODQwODQ3MywiZXhwIjoxNTMxMDAwNDczfQ.GnJgyQMBn4o1Iz_aaHKPnKY-rRdVP5K-k37XA4bl4Cw"
+              },
+              {
+                "key": "Content-Type",
+                "value": "application/x-www-form-urlencoded"
+              }
+            ],
+            "body": {},
+            "url": "https://wisvt1646i.execute-api.ap-southeast-1.amazonaws.com/dev/productBatchList/0/5"
+          },
+          "response": []
+        },
+        {
+          "_postman_id": "74433cfe-8574-fc28-6a4b-d915fca298b3",
+          "name": "productBatchGet",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhY2NvdW50SWQiOjEsInVzZXJJZCI6MSwiYnVzaW5lc3NJZCI6MSwidXNlclR5cGUiOiJzdGFmZiIsImlhdCI6MTUyODQwODQ3MywiZXhwIjoxNTMxMDAwNDczfQ.GnJgyQMBn4o1Iz_aaHKPnKY-rRdVP5K-k37XA4bl4Cw"
+              },
+              {
+                "key": "Content-Type",
+                "value": "application/x-www-form-urlencoded"
+              }
+            ],
+            "body": {},
+            "url": "https://wisvt1646i.execute-api.ap-southeast-1.amazonaws.com/dev/productBatch/122"
+          },
+          "response": []
+        },
+        {
+          "_postman_id": "33b704b7-429c-66cc-235c-88d5d30f0945",
+          "name": "productBatchPut",
+          "request": {
+            "method": "PUT",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhY2NvdW50SWQiOjEsInVzZXJJZCI6MSwiYnVzaW5lc3NJZCI6MSwidXNlclR5cGUiOiJzdGFmZiIsImlhdCI6MTUyODQwODQ3MywiZXhwIjoxNTMxMDAwNDczfQ.GnJgyQMBn4o1Iz_aaHKPnKY-rRdVP5K-k37XA4bl4Cw"
+              },
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n            \"productBatchID\": 122,\n            \"productBatchNumber\": \"03AH1701000001\",\n            \"productBatchDate\": \"2018-01-10T14:53:56.000Z\",\n            \"number\": 5,\n            \"locking\": 1,\n            \"productBatchNotes\": \"updated note\",\n            \"prefix\": \"03AH\",\n            \"suffix\": \"\"\n        }"
+            },
+            "url": "https://wisvt1646i.execute-api.ap-southeast-1.amazonaws.com/dev/productBatch/122"
+          },
+          "response": []
+        },
+        {
+          "_postman_id": "1d1dd2bb-d451-68cc-ee15-79dd3f5a87db",
+          "name": "productBatchDelete",
+          "request": {
+            "method": "DELETE",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhY2NvdW50SWQiOjEsInVzZXJJZCI6MSwiYnVzaW5lc3NJZCI6MSwidXNlclR5cGUiOiJzdGFmZiIsImlhdCI6MTUyODQwODQ3MywiZXhwIjoxNTMxMDAwNDczfQ.GnJgyQMBn4o1Iz_aaHKPnKY-rRdVP5K-k37XA4bl4Cw"
+              },
+              {
+                "key": "Content-Type",
+                "value": "application/x-www-form-urlencoded"
+              }
+            ],
+            "body": {},
+            "url": "https://wisvt1646i.execute-api.ap-southeast-1.amazonaws.com/dev/productBatch/131"
+          },
+          "response": []
+        },
+        {
+          "_postman_id": "fa8bb39b-f19b-b299-0eee-211cfa91f432",
+          "name": "productBatchPost",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhY2NvdW50SWQiOjEsInVzZXJJZCI6MSwiYnVzaW5lc3NJZCI6MSwidXNlclR5cGUiOiJzdGFmZiIsImlhdCI6MTUyODQwODQ3MywiZXhwIjoxNTMxMDAwNDczfQ.GnJgyQMBn4o1Iz_aaHKPnKY-rRdVP5K-k37XA4bl4Cw"
+              },
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n            \"productBatchNumber\": \"03AH1701000001\",\n            \"productBatchDate\": \"2018-01-10T14:53:56.000Z\",\n            \"number\": 5,\n            \"locking\": 1,\n            \"productBatchNotes\": \"updated note\",\n            \"prefix\": \"03AH\",\n            \"suffix\": \"\"\n        }"
+            },
+            "url": "https://wisvt1646i.execute-api.ap-southeast-1.amazonaws.com/dev/productBatch"
+          },
+          "response": []
+        }
+      ]
+    },
+    {
+      "_postman_id": "6c5ab0ec-3431-b96d-2057-a3783235bc95",
+      "name": "codeHistory",
+      "description": "",
+      "item": [
+        {
+          "_postman_id": "2ce82898-0368-3723-d340-09d48d9fbb92",
+          "name": "codeHistoryList",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhY2NvdW50SWQiOjEsInVzZXJJZCI6MSwiYnVzaW5lc3NJZCI6MSwidXNlclR5cGUiOiJzdGFmZiIsImlhdCI6MTUyODQwODQ3MywiZXhwIjoxNTMxMDAwNDczfQ.GnJgyQMBn4o1Iz_aaHKPnKY-rRdVP5K-k37XA4bl4Cw"
+              },
+              {
+                "key": "Content-Type",
+                "value": "application/x-www-form-urlencoded"
+              }
+            ],
+            "body": {},
+            "url": "https://wisvt1646i.execute-api.ap-southeast-1.amazonaws.com/dev/codeHistoryList/0/5"
+          },
+          "response": []
+        },
+        {
+          "_postman_id": "0333e33d-81fe-45f2-43a3-8561679c6892",
+          "name": "codeHistoryMetadata",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhY2NvdW50SWQiOjEsInVzZXJJZCI6MSwiYnVzaW5lc3NJZCI6MSwidXNlclR5cGUiOiJzdGFmZiIsImlhdCI6MTUyODQwODQ3MywiZXhwIjoxNTMxMDAwNDczfQ.GnJgyQMBn4o1Iz_aaHKPnKY-rRdVP5K-k37XA4bl4Cw"
+              },
+              {
+                "key": "Content-Type",
+                "value": "application/x-www-form-urlencoded"
+              }
+            ],
+            "body": {},
+            "url": "https://wisvt1646i.execute-api.ap-southeast-1.amazonaws.com/dev/codeHistory_Metadata"
+          },
+          "response": []
+        }
+      ]
+    },
+    {
+      "_postman_id": "01e7baea-3d98-275b-45f2-e2ee40071869",
+      "name": "assignProduct",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          },
+          {
+            "key": "Authorization",
+            "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhY2NvdW50SWQiOjEsInVzZXJJZCI6MSwiYnVzaW5lc3NJZCI6MSwidXNlclR5cGUiOiJzdGFmZiIsImlhdCI6MTUyODQwODQ3MywiZXhwIjoxNTMxMDAwNDczfQ.GnJgyQMBn4o1Iz_aaHKPnKY-rRdVP5K-k37XA4bl4Cw"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"productId\": 11296,\n  \"hashTop\": \"value2\"\n}"
+        },
+        "url": "https://wisvt1646i.execute-api.ap-southeast-1.amazonaws.com/dev/assignProduct"
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "ef3a65e8-24b2-d549-113c-c31e5832d1a3",
+      "name": "distributorSignUp",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n\t\"email\":\"chopada.tushar@gmail.com\",\n\t\"countryId\": 1,\n\t\"password\":\"Tushar123@\"\n}"
+        },
+        "url": "https://wisvt1646i.execute-api.ap-southeast-1.amazonaws.com/dev/distributorSignUp"
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "01818f05-7330-a87a-12f9-09807413d85d",
+      "name": "login",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n\t\"username\":\"chopada.tushar@gmail.com\",\n\t\"password\":\"Tushar123@\"\n}"
+        },
+        "url": "https://wisvt1646i.execute-api.ap-southeast-1.amazonaws.com/dev/login"
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "0b766dc3-a092-c9db-5fd9-4313952560dd",
+      "name": "productItemsPost",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Authorization",
+            "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhY2NvdW50SWQiOjEsInVzZXJJZCI6MSwiYnVzaW5lc3NJZCI6MSwidXNlclR5cGUiOiJzdGFmZiIsImlhdCI6MTUyODQwODQ3MywiZXhwIjoxNTMxMDAwNDczfQ.GnJgyQMBn4o1Iz_aaHKPnKY-rRdVP5K-k37XA4bl4Cw"
+          },
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n        \"productModelID\": 31,\n        \"productBatchID\": 122,\n        \"productItemOEM_SN\": \"03AH17010000012\",\n        \"productItemPAYG_SN\": \"03AH17010000012\",\n        \"lifeCycleStatus\": \"Provisione\",\n        \"loraendid\": \"0000000000000216\",\n        \"user_userID\": null\n    }"
+        },
+        "url": "https://wisvt1646i.execute-api.ap-southeast-1.amazonaws.com/dev/productItems"
+      },
+      "response": []
+    }
+  ]
+}
