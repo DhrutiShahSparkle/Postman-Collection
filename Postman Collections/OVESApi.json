@@ -18,15 +18,18 @@
             "header": [
               {
                 "key": "Authorization",
-                "value": "eyJraWQiOiJxTDVBR1l3b3ZtbFMzV1hNZ1FWZTVDKzl4aXZjRWZ6XC9YWnlZN1ROcitsZz0iLCJhbGciOiJSUzI1NiJ9.eyJzdWIiOiJmYWJhYTMzMy00MDcyLTRmMTktYTUwNS0wZDdjYzBmYWM4YWMiLCJhdWQiOiI2b2FxOWN2ZGg0bWlqZDZibDFscWFhNHExMSIsImVtYWlsX3ZlcmlmaWVkIjpmYWxzZSwiZXZlbnRfaWQiOiJhYzU4M2UyMS1lZDU0LTExZTgtOGRmZi1mMTYyODg2MWZhZTciLCJ0b2tlbl91c2UiOiJpZCIsImF1dGhfdGltZSI6MTU0Mjc4MDg1NiwiaXNzIjoiaHR0cHM6XC9cL2NvZ25pdG8taWRwLmFwLXNvdXRoZWFzdC0xLmFtYXpvbmF3cy5jb21cL2FwLXNvdXRoZWFzdC0xX2pDS1lNMmE1ViIsImN1c3RvbTp1c2VyX2lkIjoiNTAiLCJjb2duaXRvOnVzZXJuYW1lIjoidGVzdGRpc3RyaWJ1dG9yQGdtYWlsLmNvbSIsImV4cCI6MTU0Mjc4NDQ1NiwiaWF0IjoxNTQyNzgwODU2LCJlbWFpbCI6InRlc3RkaXN0cmlidXRvckBnbWFpbC5jb20ifQ.e4GUiAE1U9OnFdLHML2KQykoqX7dxjMOUjEPglhIDQyzL9OAlRkGB7uXYliF1hWLptn7HtYuC5tgCu7oIinKcoLK7JjbYcMNDpuiq52gvi71SYIo78GAxK-XCcqCJCpraofeZE5NV1fOGGzO9KkYw479Gk-gt-2XJ8_y0uqvVi8C-RG4BrF1uVWdiCzyTnHAcA0dfD1MckESCPk6qswJa-ea-zCEfW3s7mXtGGBrUGe3GCzVnTx0HX99w2PNCXzivoXkMy_R6PJToduNWoRWYdPxWZrTrMuRfZKU2s2BAHKFUc1B5iCkUv03eFMmTta7OJA8S-HPK4d0gtfp_2HJ0w"
+                "value": "eyJraWQiOiJ3OWxNQmhSbUg1YnJKRktkeEpRTXVVRUh4TkVEclVGUkY1YXVudHRuejRBPSIsImFsZyI6IlJTMjU2In0.eyJzdWIiOiI2MzNlMzc5Ni02OGNkLTQ3YTgtYjBjNi1lYzA4NDgxMTRkZDciLCJldmVudF9pZCI6ImNhZWRlZTJiLWYyMGMtMTFlOC04MTY0LTRkZDlkZTRjZGE0ZiIsInRva2VuX3VzZSI6ImFjY2VzcyIsInNjb3BlIjoiYXdzLmNvZ25pdG8uc2lnbmluLnVzZXIuYWRtaW4iLCJhdXRoX3RpbWUiOjE1NDMyOTk3MzksImlzcyI6Imh0dHBzOlwvXC9jb2duaXRvLWlkcC5hcC1zb3V0aGVhc3QtMS5hbWF6b25hd3MuY29tXC9hcC1zb3V0aGVhc3QtMV9qQ0tZTTJhNVYiLCJleHAiOjE1NDMzMDMzMzksImlhdCI6MTU0MzI5OTczOSwianRpIjoiZWIzODBkZDMtOTE5MC00MzMwLThhZGItOWI3YmMyN2M1YmY4IiwiY2xpZW50X2lkIjoiNm9hcTljdmRoNG1pamQ2YmwxbHFhYTRxMTEiLCJ1c2VybmFtZSI6InRlc3RkaXN0cmlidXRvckBnbWFpbC5jb20ifQ.fTCNqI_d0xjcqX5VqQxbhjlQozyGIhhotluuX2SIfWV6I_Mpd67HR4nBqz7X92UXlyrckco5qVrsXl2iUxveNx954fB2ClHbf5Pz-XTP-KpkGNX5vcECGfcvAXDy7ETgofqKU1p9rUgt1ygs_lwnXpBdf37iKmPfVDMfIsCSr9HpfdrtaaBjcVAY5INa2rF-4b3o3MAx7EwNwzNg2sR5sKYXx046SVac5qb0fmHf1cDIQ9TbyL2pNu-Gxol9poy_zuc3NfmUXK1MlWF0MZgyxt5h_GaER-_ZHaIPU58SfYDgufnbxIBxTmNdx12kHP1zEMPQVVbLY4mrWv7kZol6Jg"
               },
               {
                 "key": "Content-Type",
                 "value": "application/x-www-form-urlencoded"
               }
             ],
-            "body": {},
-            "url": "https://wisvt1646i.execute-api.ap-southeast-1.amazonaws.com/dev/assignedItemsList/0/5"
+            "body": {
+              "mode": "raw",
+              "raw": ""
+            },
+            "url": "https://wisvt1646i.execute-api.ap-southeast-1.amazonaws.com/dev/assignedItemsList/0/10"
           },
           "response": []
         },
